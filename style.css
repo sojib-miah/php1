@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #444;
+    color: aliceblue;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.btn{
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 9px 16px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+} 
+/* common css style  */
+nav{
+    background: #999;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: inline-block;
+    color: black;
+    font-weight: 900;
+    font-size: 28px;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+}
+.title{
+    font-size: 28px;
+    color: rgb(47, 255, 68);
+    margin-bottom: 10px;
+}
+.form{
+    width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+label{
+    color: black;
+    font-size: 15px;
+    display: block;
+    font-size: 18px;
+    margin-top: 8px;
+}
+input[type="text"],input[type="email"]{
+    width: 400px;
+    padding: 10px 3px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 16px;
+    margin: 15px 0;
+}
+input[type="text"],input[type="email"]:focus{
+    outline: none;
+}
+input[type="submit"]{
+    margin-top: 15px;
+}
+.details{
+    background: #fff;
+    color: black;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+text-align: center;
+}
